@@ -28,9 +28,9 @@ PORT=3000
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=social_media_db
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-JWT_SECRET=your_jwt_secret_key
+DB_USER=postgres
+DB_PASSWORD=12345
+JWT_SECRET=your_super_secret_jwt_key_here_please_change_in_production
 ```
 
 Or copy from the provided `.env.example`:
